@@ -7,6 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+ body{
+  font-family: 'Manrope', sans-serif;
+ }
+  </style>
 </head>
 <body>
   <header class="my-16 container mx-auto">
@@ -37,7 +43,7 @@
                       <li><a> Contact </a></li>
             </ul>
           </div>
-          <div class="navbar-end">
+          <div class="navbar-end gap-4">
               <i class="fa-solid fa-magnifying-glass"></i>
             <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
           </div>
@@ -45,24 +51,34 @@
   </nav>
   <div class="carousel w-full my-10">
     
-      <div id="slide1" class="carousel-item relative w-full">
+      <div id="slide1" class=" flex flex-col carousel-item relative w-full">
         <img src="Images/1.png" class="w-full"/>
+        
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
           <a href="#slide2" class="btn btn-circle">❮</a> 
           <a href="#slide2" class="btn btn-circle">❯</a>
         </div>
 
       </div> 
-      <div id="slide2" class="carousel-item relative w-full">
+      
+      <div id="slide2" class=" flex flex-col carousel-item relative w-full">
         <img src="Images/1.png" class="w-full"/>
+       
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
           <a href="#slide1" class="btn btn-circle">❮</a> 
           <a href="#slide1" class="btn btn-circle">❯</a>
         </div>
       </div> 
+      
     
    
     
+  </div>
+  <div class="bg-[#131318] lg:absolute lg:-bottom-16 lg:right-16 w-full h-auto lg:w-[550px]  rounded-lg">
+    <div class="text-white text-center p-8">
+      <h3 class="text-xl font-semibold">Meet all the heroes from the field</h3>
+      <p class="pt-4 text-[#FFFFFF99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+    </div>
   </div>
   <div>
 
@@ -72,29 +88,38 @@
     <section class="my-20">
       <div>
         <h1 class="text-center font-extrabold text-4xl	">Professional Hockeys Club</h1>
-        <p class="text-center pt-8 ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+        <p class="text-center pt-8 ">"Dynamic plays, skilled athletes, and unwavering team spirit define our professional <br> hockey team, conquering ice arenas with precision." </p>
 
       </div>
       <div class="flex justify-evenly flex-col lg:flex-row my-16">
         <div class="text-center space-y-5">
           <div class="radial-progress text-red-500 " style="--value:87;" role="progressbar">87%</div>
           <h3 class="text-xl font-semibold">Prayer Facility</h3>
-          <p class="text-base ">Amet consectetur. Condimentum <br>dignissim adipiscing .</p>
+          <p class="text-base ">State-of-the-art facilities for players'  and <br> development excellence."</p>
         </div>
         <div class="text-center space-y-5">
           <div class="radial-progress text-[49D293] " style="--value:95;" role="progressbar">95%</div>
           <h3 class="text-xl font-semibold">Experienced Coach</h3>
-          <p class="text-base ">Amet consectetur. Condimentum <br>dignissim adipiscing .</p>
+          <p class="text-base ">
+            "Expert coach molds talent,  and <br>  with precision."
+            
+            
+            
+            
+            
+            .</p>
         </div>
         <div class="text-center space-y-5">
           <div class="radial-progress text-yellow-500 " style="--value:90;" role="progressbar">90%</div>
           <h3 class="text-xl font-semibold">Senior Player</h3>
-          <p class="text-base ">Amet consectetur. Condimentum <br>dignissim adipiscing .</p>
+          <p class="text-base ">
+            "Seasoned athlete, leader, and <br> team cornerstone."</p>
         </div>
         <div class="text-center space-y-5">
           <div class="radial-progress text-blue-500 " style="--value:80;" role="progressbar">80%</div>
           <h3 class="text-xl font-semibold">Training Ground</h3>
-          <p class="text-base ">Amet consectetur. Condimentum <br>dignissim adipiscing .</p>
+          <p class="text-base ">
+            "Elite facility nurturing <br> champions' growth."</p>
         </div>
         
 
@@ -104,7 +129,8 @@
     <section class="my-16">
       <div class="text-center space-y-6">
         <h3 class="text-3xl font-bold">Program Sections</h3>
-        <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        <p>
+          "Comprehensive program includes training, strategy, teamwork, and personalized coaching for <br> holistic player development and success." </p>
       </div>
 
 <div class=" my-16 flex gap-6 flex-col lg:flex-row">
@@ -115,8 +141,8 @@
     <div class="lg:absolute bottom-0 left-0 p-8 text-white">
       <div class="max-w-md">
         <h1 class="mb-5 text-3xl font-bold">Junior Program</h1>
-        <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-          enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+        <p class="mb-5">
+          "Junior program fosters skill, teamwork, and passion for lifelong athletic <br> achievement and sportsmanship."</p>
         <button class="btn bg-[#FF4240]">Register Now!</button>
       </div>
     </div>
@@ -126,8 +152,8 @@
     <div class="lg:absolute bottom-0 left-0 p-8 text-white">
       <div class="max-w-md">
         <h1 class="mb-5 text-3xl font-bold">Teenager Program</h1>
-        <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-          enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+        <p class="mb-5">
+          "Teenager program integrates skill development, teamwork, leadership, and mentorship to empower young athletes for success on and off the field."</p>
         <button class="btn  bg-[#FF4240]">Register Now!</button>
       </div>
     </div>
@@ -139,8 +165,8 @@
     <div class=" lg:absolute bottom-0 left-0 p-8 text-white">
       <div class="max-w-md">
         <h1 class="mb-2 text-3xl font-bold">Professional Program</h1>
-        <p class="mb-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-          enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+        <p class="mb-2">
+          "Professional program elevates skills, strategic mastery, and physical conditioning, ensuring athletes excel at the highest competitive levels in sports."</p>
         <button class="btn  bg-[#FF4240]">Register Now!</button>
       </div>
     </div>
@@ -153,7 +179,8 @@
     <section>
       <div class="text-center my-16">
         <h3 class="text-3xl font-bold mb-5">Our New Products</h3>
-        <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        <p>
+          "Explore our innovative new products, designed to elevate your experience and meet evolving <br> needs with cutting-edge technology and style." </p>
       </div>
       <div class="flex gap-6 flex-col lg:flex-row ">
         <div class="flex flex-col lg:flex-row gap-8 p-5 border-2 rounded-xl	lg:h-[250px] lg:w-full">
@@ -322,10 +349,207 @@
 
       
     </section>
+    <section class="my-24 bg-[#1313181A] ">
+      <h3 class="text-3xl font-semibold mb-8 text-center">
+        Clients Question
+      </h3>
+      <p class=" text-center mb-6 ">
+        "Addressing clients' questions with clarity, expertise, and personalized solutions to <br> ensure satisfaction and trust in our services." </p>
+      <div class="hero">
+          <div class="hero-content flex-col lg:gap-24 lg:flex-row w-full">
+            <img src="Images/11.png" class=" w-3/4 max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <div class="collapse ">
+                  <input type="radio" name="my-accordion-1" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Our Equipment
+                  </div>
+                  <div class="collapse-content"> 
+                    <p> Dolor sit amet consectetur. Ut urna diam quis sagittis. <br> Elit elit enim sagittis turpis in magna.</p>
+                  </div>
+                </div>
+            
+                <div class="collapse ">
+                  <input type="radio" name="my-accordion-1" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Hockey Training
+                  </div>
+                  <div class="collapse-content"> 
+                    Dolor sit amet consectetur. Ut urna diam quis sagittis. <br> Elit elit enim sagittis turpis in magna.</p>
+                  </div>
+                </div>
+                <div class="collapse ">
+                  <input type="radio" name="my-accordion-1" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Private Lessons
+                  </div>
+                  <div class="collapse-content"> 
+                    Dolor sit amet consectetur. Ut urna diam quis sagittis. <br> Elit elit enim sagittis turpis in magna.</p>
+                  </div>
+                </div>
+                <div class="collapse ">
+                  <input type="radio" name="my-accordion-1" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Ski Touring 
+                  </div>
+                  <div class="collapse-content"> 
+                    Dolor sit amet consectetur. Ut urna diam quis sagittis. <br> Elit elit enim sagittis turpis in magna.</p>
+                  </div>
+                </div>
+                <div class="collapse ">
+                  
+                      <input type="radio" name="my-accordion-1" /> 
+                      <div class="collapse-title text-xl font-medium">
+                        Booking
+                      </div>
+                      <div class="collapse-content"> 
+                        Dolor sit amet consectetur. Ut urna diam quis sagittis. <br> Elit elit enim sagittis turpis in magna.</p>
+                      </div>
+                    </div>
+                    <div class="collapse ">
+                  
+                      <input type="radio" name="my-accordion-1" /> 
+                      <div class="collapse-title text-xl font-medium">
+                        Pricings
+                      </div>
+                      <div class="collapse-content"> 
+                        Dolor sit amet consectetur. Ut urna diam quis sagittis. <br> Elit elit enim sagittis turpis in magna.</p>
+                      </div>
+                    </div>
+
+                  </div>
+                 
+                </div>
+            </div>
+          
+
+  </section>
+
+    <div class="my-12 text-center">
+      <h3 class="text-3xl font-bold">Get In Touch</h3>
+      <p class="py-4"> 
+        "Connect with us easily. Get in touch for inquiries, assistance, or collaboration <br> opportunities. We're here to assist you!"</p>
+    </div>
+    <section class="flex flex-col lg:flex-row w-full">
+      <div class="space-y-6 m-8 flex flex-col border-2 w-auto lg:w-[40%]">
+        <div class="bg-[#BCED6D1A] w-full h-[210px] pl-8 pt-10">
+          <img src="Images/Group 1171275317.png" alt="">
+          <p class="text-[#13131866] font-normal py-3">Phone Number : </p>
+          <h4 class="font-bold">(+62) 123-321-543</h4>
+
+        </div>
+        <div class="bg-[#FDDD5F1A]  h-[210px] pl-8 pt-10">
+          <img src="Images/Group 1171275318.png" alt="">
+          <p class="text-[#13131866] font-normal py-3">email : </p>
+          <h4 class="font-bold">hockeys@support.com</h4>
+
+        </div>
+        <div class="bg-[rgba(98, 156, 243, 0.10)] w-full h-[210px] pl-8 pt-10">
+          <img src="Images/Group 1171275321.png" alt="">
+          <p class="text-[#13131866] font-normal py-3">Location: </p>
+          <h4 class="font-bold">4152/1 Mohakhali Wireless Gate</h4>
+
+        </div>
+      </div>
+      <div class="w-60%">
+      <div class="flex flex-col lg:flex-row gap-8 lg:m-6">
+      
+          <div class="flex flex-col gap-4">
+            
+            <h4 class="font-bold">Your Name</h4>
+            <input class="pl-6 bg-[#13131808] w-full lg:w-[324px] h-[64px] rounded-lg " type="text" placeholder="Enter your full name">
+          </div>
+          <div  class="flex flex-col gap-4 ">
+            <h4 class="font-bold">Your email</h4>
+            <input class="pl-6 bg-[#13131808] w-full lg:w-[324px] h-[64px] rounded-lg" type="email" placeholder="Enter your email">
+          </div>
+          
+        </div>
+        <div class="flex flex-col lg:flex-row gap-8 lg:m-6">
+      
+          <div class="flex flex-col gap-4">
+            
+            <h4 class="font-bold">Subject</h4>
+            <input class="pl-6 bg-[#13131808] w-full lg:w-[324px] h-[64px] rounded-lg " type="text" placeholder="Enter your subject">
+          </div>
+          <div  class="flex flex-col gap-4 ">
+            <h4 class="font-bold">Your Name</h4>
+            <input class="pl-6 bg-[#13131808] w-full lg:w-[324px] h-[64px] rounded-lg" type="number" placeholder="Enter your phone number">
+          </div>
+          
+        </div>
+        
+        <div class="m-6 ">
+          <h3 class="font-bold">message</h3>
+          
+<textarea class="w-full rounded-xl bg-[#13131805]" id="message" name="message" rows="15" cols="70">
+  Write your message
+  </textarea>
+  <button class="bg-[#FF4240] text-white w-full pt-4 pb-4 rounded-xl">Send Message</button>
+        </div>
+
+      </div>
+     
+    </section>
+    <section class="my-8">
+      <div class="flex flex-col bg-[#13131800] w-full rounded-lg">
+        <h3 class="text-2xl font-bold text-center">Social Media</h3>
+        <div class="flex gap-4 justify-center mt-6">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+    </section>
 
 
 
   </main>
+
+  <footer class="footer bg-[#131318] text-white p-10 bg-base-200 ">
+    <aside class="space-y-3">
+      <h3 class="text-xl font-bold">Get In Touch</h3>
+      
+      <p>Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus <br> urna in sit nullam proin. </p>
+    <p class="gap-5"><i class="fa-regular fa-envelope "></i>hockeys@support.com</p>
+    <p><i class="fa-solid fa-phone"></i>(+62) 123-321-543</p>
+    </aside> 
+   
+<div class="flex  flex-row">
+  <nav class="flex flex-col ">
+    <header class="footer-title">Services</header> 
+    <a class="link link-hover">About us</a>
+    <a class="link link-hover">Leadership</a>
+    <a class="link link-hover">Careers</a>
+    <a class="link link-hover">News & Article</a>
+    <a class="link link-hover">Legal Notice</a>
+  
+  
+  </nav> 
+  <nav class="flex flex-col ml-24">
+  <header class="footer-title">Support</header> 
+  <a class="link link-hover">Help Center</a>
+  <a class="link link-hover">FAQ</a>
+  <a class="link link-hover">Ticket Support</a>
+  <a class="link link-hover">Contact Us</a>
+  
+  </nav>
+</div>
+  
+
+        
+    
+    <nav >
+      <header class="footer-title">Services</header> 
+      <a class="link link-hover">Academy</a>
+      <a class="link link-hover">Group Lesson</a>
+      <a class="link link-hover">Private Lesson</a>
+      <a class="link link-hover">Hockeys for kids</a>
+      <a class="link link-hover">Hockeys for Adult</a>
+    </nav>
+   
+  </footer>
    
     
 </body>
